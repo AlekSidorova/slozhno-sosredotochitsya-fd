@@ -3,8 +3,8 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 
-  background-color: var(--dark-color);
-  background-image: var(--dark-image-bg);
+  background-color: var(--bg-color);
+  background-image: var(--image-bg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,7 +35,7 @@
 .header__theme-menu-button {
   line-height: 18px;
   text-transform: lowercase;
-  color: var(--accent-color);
+  color: var(--accent-color-text);
   border: none;
   background-color: transparent;
   min-inline-size: 70px;
@@ -44,7 +44,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--accent-color-text);
 }
 
 /* кнопки hover и focus */
@@ -54,7 +54,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--dark-hover-button);
+  border: 1px solid var(--hover-button);
   text-decoration: none;
 }
 
@@ -70,8 +70,8 @@
   right: 0;
   inline-size: 24px;
   block-size: 24px;
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--accent-color-text);
+  border-inline-end: 1px solid var(--accent-color-text);
 }
 
 .dark_rec::before {
@@ -105,8 +105,8 @@
   bottom: 20px;
   inline-size: 24px;
   block-size: 24px;
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-color-text);
+  border-inline-start: 1px solid var(--accent-color-text);
 }
 
 .title {
@@ -124,11 +124,11 @@
 
 .title-decor {
   background-color: var(--accent-color);
-  color: var(--dark-color);
+  color: var(--bg-color);
 }
 
 .main__question {
-  color: var(--accent-color);
+  color: var(--accent-color-text);
 }
 
 .main__text {
