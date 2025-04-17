@@ -9,6 +9,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  padding: 10px;
 } 
 
 .header {
@@ -278,7 +279,7 @@
     grid-column-end: 3;
   }
 
-  .main__council{
+  .main__council {
     grid-template-rows: min-content 1fr;
     padding-block-end: 50px;
   }
@@ -374,7 +375,7 @@
     grid-template-columns: 314px 1fr;
   }
 
-  .answer__reduces{
+  .answer__reduces {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content 1fr;
   }
