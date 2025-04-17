@@ -17,7 +17,7 @@
   --title-color: #ffc2e6;
   --main-question: #353430;
   --accent-color-text: #353430;
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --image-bg: url(../images/cover-image-light.png);
   --main-text: #353430;
 }
@@ -26,4 +26,20 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color: var(--bg-color);
   background-image: var(--image-bg);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --corners: #353430;
+    --rec-color: transparent;
+    --accent-color: #ff8dcb;
+    --menu-color: #353430;
+    --menu-hover: rgba(50, 49, 45, 0.4);
+    --title-color: #ffc2e6;
+    --main-question: #353430;
+    --accent-color-text: #353430;
+    --bg-color: #fff1f7;
+    --image-bg: url(../images/cover-image-light.png);
+    --main-text: #353430;
+  }
 }
