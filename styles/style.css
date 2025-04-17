@@ -9,8 +9,10 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   margin: 0 auto;
+  min-inline-size: 375px;
+  max-inline-size: 1440px;
 } 
 
 .header {
@@ -231,7 +233,7 @@
 
 @media (width >= 768px) {
   .page {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
   }
 
   .header {
