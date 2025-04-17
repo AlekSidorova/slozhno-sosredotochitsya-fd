@@ -9,13 +9,17 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --title-color: #ffc2e6;
+  --corners: #353430;
+  --rec-color: transparent;
   --accent-color: #ff8dcb;
+  --menu-color: #353430;
+  --menu-hover: rgba(50, 49, 45, 0.4);
+  --title-color: #ffc2e6;
+  --main-question: #353430;
   --accent-color-text: #353430;
-  --hover-button: rgba(255, 0, 112, 0.4);
   --bg-color: #FFF1F7;
   --image-bg: url(../images/cover-image-light.png);
-  --main-text: #f1b2ce;
+  --main-text: #353430;
 }
 
 .theme-light .page {

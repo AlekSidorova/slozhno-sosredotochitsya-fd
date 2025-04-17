@@ -35,7 +35,7 @@
 .header__theme-menu-button {
   line-height: 18px;
   text-transform: lowercase;
-  color: var(--accent-color-text);
+  color: var(--menu-color);
   border: none;
   background-color: transparent;
   min-inline-size: 70px;
@@ -44,7 +44,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color-text);
+  border: 1px solid var(--menu-color);
 }
 
 /* кнопки hover и focus */
@@ -54,7 +54,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--hover-button);
+  border: 1px solid var(--menu-hover);
   text-decoration: none;
 }
 
@@ -70,14 +70,14 @@
   right: 0;
   inline-size: 24px;
   block-size: 24px;
-  border-block-start: 1px solid var(--accent-color-text);
-  border-inline-end: 1px solid var(--accent-color-text);
+  border-block-start: 1px solid var(--corners);
+  border-inline-end: 1px solid var(--corners);
 }
 
 .dark_rec::before {
   content: 'rec';
   text-transform: uppercase;
-  color: var(--accent-color);
+  color: var(--rec-color);
   font-size: 18px;
   line-height: 139%;
   position: absolute;
@@ -90,9 +90,9 @@
   content: '';
   inline-size: 9px;
   height: 9px;
-  background-color: var(--accent-color);
+  background-color: var(--rec-color);
   border-radius: 100%;
-  box-shadow: 0 0 4px 2px var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--rec-color);
   position: absolute;
   right: 9px;
   top: 8px;
@@ -105,8 +105,8 @@
   bottom: 20px;
   inline-size: 24px;
   block-size: 24px;
-  border-block-end: 1px solid var(--accent-color-text);
-  border-inline-start: 1px solid var(--accent-color-text);
+  border-block-end: 1px solid var(--corners);
+  border-inline-start: 1px solid var(--corners);
 }
 
 .title {
@@ -124,11 +124,11 @@
 
 .title-decor {
   background-color: var(--accent-color);
-  color: var(--bg-color);
+  color: var(--accent-color-text);
 }
 
 .main__question {
-  color: var(--accent-color-text);
+  color: var(--main-question);
 }
 
 .main__text {
