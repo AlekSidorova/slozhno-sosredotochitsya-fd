@@ -10,6 +10,7 @@
   background-size: cover;
   background-attachment: fixed;
   padding: 10px;
+  margin: 0 auto;
 } 
 
 .header {
@@ -229,7 +230,7 @@
 }
 
 @media (width >= 768px) {
-  body {
+  .page {
     padding: 20px;
   }
 
