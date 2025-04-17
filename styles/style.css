@@ -153,7 +153,6 @@
   position: relative;
   text-decoration: none;
   text-shadow: 3px 1px 0 var(--accent-color);
-
 }
 
 /* ссылки :hover и focus  */
@@ -211,7 +210,6 @@
   grid-auto-flow: row dense;
   gap: 10px;
   padding: 30px 0 51px;
-  min-block-size: calc(100vh - 5em);
 }
 
 .picture-img {
@@ -226,6 +224,7 @@
   justify-items: center;
   align-items: center;
   padding: 0;
+  height: max(100vh, 668px);
 }
 
 .footer__title {
@@ -288,7 +287,7 @@
     padding-block-end: 50px;
   }
 
-  .main__council h3 {
+  .main__council h2 {
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 3;
@@ -302,6 +301,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content 192px 230px 318px;
     gap: 20px;
+    padding-block-end: 79px;
   }
 
   .picture__title {
@@ -341,7 +341,7 @@
   .footer__title {
     position: relative;
     right: 0;
-    padding: 0;
+    padding-block-end: 0;
   }
 }
 
